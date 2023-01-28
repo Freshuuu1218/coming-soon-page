@@ -59,6 +59,7 @@ main{
 }
 .validate{
     width: 90%;
+    position: relative;
 }
 form{ 
     position: relative;
@@ -99,4 +100,11 @@ form{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.error-icon{
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
 }
