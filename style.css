@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./images/bg-pattern-desktop.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.left-side{
+    height: 100%;
+    width: 55%;
+    padding: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.left-side .logo{
+    margin-bottom: 5em;
+}
+.left-side h1{
+    margin-top: 1em;
+    margin-bottom: .3em;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 4.5em;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    color:hsl(0, 6%, 24%);
+}
+.left-side  h1 span{
+    font-weight: 300;
+    color: hsl(0, 36%, 70%);
+}
+
+.left-side  p{
+    width: 72.5%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    color: hsl(0, 36%, 70%);
+    letter-spacing: 0.03em;
+    line-height: 2em;
+    margin-bottom: 3.5em;
+}
+.validate{
+    width: 90%;
+}
+form{ 
+    position: relative;
+    width: 100%;
+    font-size: 30px;
+}
+.left-side input{
+    font-size: 16px;
+    width: 85%;
+    border-radius: 2em;
+    padding: 1.2em 1.5em;
+    border: 1px solid #999;
+    opacity: .5;
+}
+.left-side label{
+    position: absolute;
+    top: 0;
+    right: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    border-radius: 2em;
+    padding: .65em 1.5em;
+    background-image: linear-gradient(135deg, hsl(0, 80%, 86%) 0%, hsl(0, 74%, 74%) 100%);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+}
+.left-side label:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+        background-image: linear-gradient(135deg, hsl(0, 75%, 89%) 0%, hsl(0, 69%, 79%) 100%);
+}
+.right-side{
+    width: 45%;
+    background-image: url('./images/hero-desktop.jpg');
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
