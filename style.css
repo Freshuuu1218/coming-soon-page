@@ -108,3 +108,56 @@ form{
     left: 65%;
     transform: translate(-50%, -50%);
 }
+
+
+@media (max-width: 430px){
+    main{
+        flex-direction: column;
+    }
+    .left-side{
+        padding: 2em;
+        width: 100%;
+        height: 70vh;
+        text-align: center;
+    }
+    .right-side{
+        position: absolute;
+        top: 10%;
+        left: 0;
+        height: 30vh;
+        width: 100%;
+        background-image: url('./images/hero-mobile.jpg');
+        background-position: 0 0;
+        background-size: cover;
+    }
+    .left-side .logo{
+        margin-bottom: 22.5em;
+    }
+    .left-side .logo img{
+        width: 70%;
+    }
+    .left-side h1{
+
+        font-size: 40px;
+    }
+    .left-side p{
+        width: 100%;
+        font-size: 14px;
+        letter-spacing: .02em;
+        line-height: 1.5em;
+    }
+    .validate{
+        margin-left: -2em;
+        width: 120%;
+
+    }
+    .validate form input{
+        font-size: 12px;
+        padding: 1.35em 1.5em ;
+    }
+    .validate label{
+        padding: .475em .85em;
+        right: 7%;
+    }
+    
+}
